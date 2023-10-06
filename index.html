@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Formulario 1 -->
+    <h2>Guardar correo</h2>
+    <form>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Introduce tu correo..."
+      />
+      <button id="btn">Guardar</button>
+    </form>
+    <p id="text"></p>
+
+    <!-- Formulario Nota 2 -->
+    <h2>Guardar Nota</h2>
+    <form>
+      <input type="text" name="title" id="title" placeholder="Add title..." />
+      <textarea
+        name="content"
+        id="content"
+        cols="30"
+        rows="10"
+        placeholder="Say something..."
+      ></textarea>
+      <input type="submit" value="Submit" id="submit" />
+    </form>
+    <div id="noteText"></div>
+    <h2>Pintar en el DOM</h2>
+    <h3>Euralio</h3>
+    <p id="textEuralio"></p>
+    <h3>Personas</h3>
+
+    <p id="textPeople"></p>
+    <h3>Personas mayores de 30</h3>
+    <p id="textPeople30"></p>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
